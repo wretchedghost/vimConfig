@@ -1,3 +1,5 @@
+# Overview of what these vim plugins do and some how-tos 
+
 ## goyo.vim - Distraction-free writing tool that sets the writing dimensions suitable for non-technical and non-programming contexts.
 
 * Turn on - :Goyo
