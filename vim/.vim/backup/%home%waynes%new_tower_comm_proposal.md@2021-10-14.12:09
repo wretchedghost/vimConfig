@@ -1,0 +1,10 @@
+# New Tower Comms Proposal
+
+## Why I suggest we start looking into the Ubiquiti LTU devices. 
+
+Currently we are using the Ubiquiti AirMax software that has been used for several years now. The concepts are tested and understood very well but Ubiquiti themselves understood that moving forward that things needed to change. For one, the AirMax QAM (Quadrapture Amplitude Modulation) which determines the amount of traffic and packets that can be sent over the air via certain algorithms, is maxxed out at 256QAM. The new LTU standard allows up to 1024QAM with the latest firmware allowing up to 4096QAM. Of course this is all potential limitations that wont scale perfectly in the real world. You might be asking then what can we achieve realistically if we decided to upgrae?
+
+In our case this will help us in several ways.
+1. This will allow for greater traffic and better link speeds. 
+2. We will be keeping up with Ubiquiti's latest development cycle as they try to wean themselves from the older AirMax. Which will allow for faster and more modern updates to the LTU based devices. 
+3. 

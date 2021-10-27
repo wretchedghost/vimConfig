@@ -1,0 +1,17 @@
+Host liquidweb
+    Hostname 69.16.250.58
+    User root
+    Port 3220
+    Protocol 2
+
+### Home - Bastion Host
+Host wretchedghost.com 
+    HostName wretchedghost.com
+    User wretchedghost
+    Port 22222
+
+Host prox0
+    HostName 192.168.20.20
+    ProxyJump wretchedghost.com
+
+

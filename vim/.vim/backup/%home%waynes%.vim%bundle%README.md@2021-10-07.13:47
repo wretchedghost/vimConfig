@@ -1,0 +1,22 @@
+## goyo.vim - Distraction-free writing tool that sets the writing dimensions suitable for non-technical and non-programming contexts.
+
+* Turn on - :Goyo
+* Turn off - :Goyo!
+
+## limelight.vim - Allows you to focus and highlight blocks of text and content dynamically, usually for writing oriented environments.
+
+* Turn on - :Limelight
+* Turn off - :Limelight (same)
+
+## NERD Tree - Allows you to explore your filesystem in order to easily open files and directories. It take the form of a tree which you manipulate with the keyboard and/or mouse.
+
+* Start - :NERDTree
+
+## vim-airline - Lean and mean status/tabline for vim that's light as air. Basically its a nice status bar that shows various things such as: 
+1. Which mode you are in
+2. file name
+3. type of file
+4. word count
+5. number of lines and which line you are currently on. 
+
+
