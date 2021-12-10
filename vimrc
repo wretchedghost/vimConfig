@@ -113,6 +113,25 @@ set laststatus=2
 " Return to last edit position when opening files
 autocmd BufReadPost * if line("'\'") > 0 && line("'\'") <=line("$") | exe "normal! g'\"" | endif
 
+"""""""""""""""" vim-autosave """"""""""""""""""""""""""""""""
+" Save on lost focus/exit 
+autocmd FocusLost,VimLeavePre * silent! w
+
+" Also, save once per minute if there are changes
+let g:autosave_seconds = 10
+au BufRead,BufNewFile * let b:start_time=localtime()
+au CursorHold * silent! call UpdateFile()
+function! UpdateFile()
+  if ((localtime() - b:start_time) >= g:autosave_seconds)
+    update
+    let b:start_time=localtime()
+  endif
+endfunction
+au BufWritePre * let b:start_time=localtime()
+
+" => vim-autosave 
+""""""""""""""" vim-autosave End """""""""""""""""""""""""""
+
 """""""""""""" Limelight """"""""""""""""""""""""""""""""
 
 " Color name (:help cterm-colors
