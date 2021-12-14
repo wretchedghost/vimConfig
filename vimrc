@@ -115,10 +115,10 @@ autocmd BufReadPost * if line("'\'") > 0 && line("'\'") <=line("$") | exe "norma
 
 """""""""""""""" vim-autosave """"""""""""""""""""""""""""""""
 " Save on lost focus/exit 
-autocmd FocusLost,VimLeavePre * silent! w
+"autocmd FocusLost,VimLeavePre * silent! w
 
-" Also, save once per minute if there are changes
-let g:autosave_seconds = 10
+" Also, save once per 60 seconds if there are changes
+let g:autosave_seconds = 60
 au BufRead,BufNewFile * let b:start_time=localtime()
 au CursorHold * silent! call UpdateFile()
 function! UpdateFile()
