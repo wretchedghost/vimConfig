@@ -71,7 +71,8 @@ au BufWritePre * let &bex = '@' . strftime("%F.%H:%M")
 set noswapfile
 set directory=.,./.backup,/tmp
 
-" Persist undo history between Vim sessions.
+" Persist undo history between Vim sessions. Creates undo file if it doesn't exist already.
+set undofile " Maintain undo history between sessions.
 if has('persistent_undo')
 	set undodir=$HOME/.vim/undo
 	if !isdirectory(&undodir) | call mkdir(&undodir, 'p', 0700) | endif
