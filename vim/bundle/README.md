@@ -14,7 +14,7 @@
 
 ## SuperTab - SuperTab is an auto-completion plugin that allows extra insert mode completion using the key. After typing a few letters of a word that exists withina current open buffer (vim session) SuperTab will list the auto-completion options. 
 
-## vim-airline - Lean and mean status/tabline for vim that's light as air. Basically its a nice status bar that shows various things such as: 
+## LightLine: 
 1. Which mode you are in
 2. file name
 3. type of file
