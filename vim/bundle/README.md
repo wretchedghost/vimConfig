@@ -1,4 +1,4 @@
-# Things that I have added for my custom .vimrc
+# Some things that I have added for my custom .vimrc
 * allow editing of a file as superuser when not first run as superuser
     :w!!
 * enter a shebang when typing <_sh> in insert mode.
