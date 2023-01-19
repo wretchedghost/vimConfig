@@ -1,11 +1,24 @@
-# vimConfig
-This is my main vim config repo where I have tweaked my .vimrc file to work very efficiently for me. 
+## goyo.vim - Distraction-free writing tool that sets the writing dimensions suitable for non-technical and non-programming contexts.
 
-#### Plugins I use
-    * goyo - Takes away the distraction bits found in vim and only presents you with your writings and which mode you are.
-    * limelight - A handy plugin that darkens the non-current line you are one. Handy when all you want to focus on is the current line/paragraph.
-    * lightline - A plugin that shows various details of the file you are currently editing. Also color is used to determine which mode you are in. It will showyour current mode, the filename, the type of file you are editing (markdown, bash, etc.), and line and column number, among others.
-    * supertab - A plugin that can autocomplete program words.
-    * vim-markdown - Enhances the interaction of markdown files. 
-    * vim-sensible - Default plugin enhancements.
-    * vim-vividchalk - My choice of text decoration.
+* Turn on - :Goyo
+* Turn off - :Goyo!
+
+## limelight.vim - Allows you to focus and highlight blocks of text and content dynamically, usually for writing oriented environments.
+
+* Turn on - :Limelight
+* Turn off - :Limelight (same)
+
+## SuperTab - SuperTab is an auto-completion plugin that allows extra insert mode completion using the key. After typing a few letters of a word that exists withina current open buffer (vim session) SuperTab will list the auto-completion options. 
+
+## LightLine: 
+1. Which mode you are in
+2. file name
+3. type of file
+4. word count
+5. number of lines and which line you are currently on. 
+
+## vim-markdown - Automatically sets up certain parameters for markdown content when a .md file is created or edited. 
+
+## vim-sensible - Vim settings that we can all agree on. 
+
+## vim-vividchalk - A particular theme I fancy. 
