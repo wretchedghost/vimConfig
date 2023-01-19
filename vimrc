@@ -16,10 +16,10 @@ if $TERM == "xterm-256color" || $TERM == "screen-256color" || $COLORTERM =="urxv
 endif
 
 " Show trailing whitespace chars
-"set list
+"set lis
 "set listchars=tab:>-,trail:.,extends:#,nbsp:.
 
-"Better buffer management - hide buggers instead of closing them 
+"Better buffer management - hide buffers instead of closing them 
 set hidden
 set history=5000
 set undolevels=5000
@@ -152,8 +152,6 @@ autocmd BufNewFile,BufRead *.md set filetype=markdown
 " Hide and format markdown elements like **bold**
 "autocmd FileType markdown set conceallevel=2
 
-"let vim_markdown_preview_browser='Google Chrome'
-let vim_markdown_preview_browser='Brave-browser'
 
 """"""""""""" END MARKDOWN """""""""""""""""""""""""""
 
@@ -165,9 +163,10 @@ autocmd BufNewFile,BufRead *.txt set nonumber
 
 """"""""""" End txt """""""""""""""""""""""""""""""""
 
-" Allow editing a file as superuser when not first run as superuser
+" Allow editing a file as superuser when not first run as superuser. Type :w!!
 cmap w!! %!sudo tee > /dev/null %
 
+" Enter the shebang when typing <_sh> in insert mode.
 abbr _sh #!/bin/bash
 
 ":syntax on
