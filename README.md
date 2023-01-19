@@ -1,17 +1,17 @@
-## goyo.vim - Distraction-free writing tool that sets the writing dimensions suitable for non-technical and non-programming contexts.
+## goyo - Distraction-free writing tool that sets the writing dimensions suitable for non-technical and non-programming contexts.
 
 * Turn on - :Goyo
 * Turn off - :Goyo!
 
-## limelight.vim - Allows you to focus and highlight blocks of text and content dynamically, usually for writing oriented environments.
+## limelight - Allows you to focus and highlight blocks of text and content dynamically, usually for writing oriented environments.
 
 * Turn on - :Limelight
 * Turn off - :Limelight (same)
 
-## SuperTab - SuperTab is an auto-completion plugin that allows extra insert mode completion using the key. After typing a few letters of a word that exists withina current open buffer (vim session) SuperTab will list the auto-completion options. 
+## supertab - SuperTab is an auto-completion plugin that allows extra insert mode completion using the key. After typing a few letters of a word that exists withina current open buffer (vim session) SuperTab will list the auto-completion options. 
 
-## LightLine: 
-1. Which mode you are in
+## lightline - Shows: 
+1. which mode you are in
 2. file name
 3. type of file
 4. word count
