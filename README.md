@@ -8,9 +8,11 @@
 * returns to last editable position when re-opening files
 * persistant undo history between vim sessions (Super awesome to have as you will be able to undo even after you save and exit a file)
     * uses a larger buffer to allow for more undo levels
+    * `ex: %home%wretchedghost%.vimrc`
 * creates a swap directory where versions of the edited files will be located
-* backs up files with meaningful names, ex: filename@2023-01-04.14:59
-* overwrites the original backup copy but makes a backup before overwriting the current buffer
+* backs up files with meaningful names
+    * `ex: %home%wretchedghost%.vimrc@2023-01-19.13:53` in ~/.vim/backups
+    * overwrites the original backup copy but makes a backup before overwriting the current buffer
 
 # Vim reminder commands
 
