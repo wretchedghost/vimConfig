@@ -2,15 +2,15 @@
 
 * allow editing of a file as superuser when not first run as superuser
     `:w!!`
-* enter a shebang when typing `:_sh` in insert mode.
+* enter a shebang when typing `:_sh` in insert mode, then hit Enter
 * tweaks to how .txt and .md files are interacted with
 * autosaves the file once every 60 seconds (vim-autosave)
 * returns to last editable position when re-opening files
-* persistant undo history between vim sessions (Super awesome to have as you will be able to undo even after you save and exit a file.)
+* persistant undo history between vim sessions (Super awesome to have as you will be able to undo even after you save and exit a file)
     * uses a larger buffer to allow for more undo levels
-* creates a swap directory where versions of the edited files will be located. 
+* creates a swap directory where versions of the edited files will be located
 * backs up files with meaningful names, ex: filename@2023-01-04.14:59
-* overwrites the original backup copy but makes a backup before overwriting the current buffer.
+* overwrites the original backup copy but makes a backup before overwriting the current buffer
 
 # Vim reminder commands
 
