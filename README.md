@@ -13,7 +13,7 @@
 
 # Vim reminder commands
 ```bash
-:r !date -> `Wed Mar  8 10:50:58 AM CST 2023`
+:r !date # Wed Mar  8 10:50:58 AM CST 2023
 :_sh # #!/bin/bash
 
 :e [file] # Opens a file, where [file] is the name of the file you want opened
