@@ -2,7 +2,7 @@
 
 * allow editing of a file as superuser when not first run as superuser
     `:w!!`
-* enter a shebang when typing `_sh` in insert mode.
+* enter a shebang when typing `:_sh` in insert mode.
 * tweaks to how .txt and .md files are interacted with
 * autosaves the file once every 60 seconds (vim-autosave)
 * returns to last editable position when re-opening files
