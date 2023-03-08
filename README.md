@@ -1,7 +1,8 @@
 # Some things that I have added for my custom .vimrc
+
 * allow editing of a file as superuser when not first run as superuser
-    :w!!
-* enter a shebang when typing <_sh> in insert mode.
+    `:w!!`
+* enter a shebang when typing `_sh` in insert mode.
 * tweaks to how .txt and .md files are interacted with
 * autosaves the file once every 60 seconds (vim-autosave)
 * returns to last editable position when re-opening files
@@ -12,6 +13,7 @@
 * overwrites the original backup copy but makes a backup before overwriting the current buffer.
 
 # Vim reminder commands
+
 ```bash
 :r !date # Wed Mar  8 10:50:58 AM CST 2023
 :_sh # #!/bin/bash
