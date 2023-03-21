@@ -168,19 +168,3 @@ cmap w!! %!sudo tee > /dev/null %
 
 " Enter the shebang when typing <_sh> in insert mode.
 abbr _sh #!/bin/bash
-
-":syntax on
-":color delek
-
-"set tabstop=4
-"set backspace=indent,eol,start " allow backspacing over everything in insert mode
-"set autoindent	" always set autoindenting on
-"set number 	" always show line numbers
-"set showmatch	" set show matching parenthesis
-"set ignorecase	" ignore case when searching
-"set hlsearch	" highlight search terms
-"set incsearch	" show search matches as you type
-
-"set history=1000	" remember more commands and search history
-"set undolevels=1000	" use many levels of undo
-"set showcmd		" show last command in bottom bar
