@@ -67,6 +67,8 @@ Ctrl + wk # Moves your cursor to the window above the one you're in
 
 ### vim-markdown - Automatically sets up certain parameters for markdown content when a .md file is created or edited. 
 
+### vim-pencil - A tool used to to make writing and reading more fun in vim by organizing the way wrap-arounds work. I have it tweaked to automatically work with certain files. Markdown will enable soft and text files will enable hard pencil. 
+
 ### vim-sensible - Vim settings that we can all agree on. 
 
 ### vim-vividchalk - A particular theme I fancy. 
