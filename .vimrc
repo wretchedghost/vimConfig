@@ -162,7 +162,7 @@ let g:pencil#wrapModeDefault = 'soft' "default is 'hard'
 augroup pencil
     autocmd!
     autocmd FileType markdown,mkd call pencil#init()
-    autocmd FileType text call pencil#init({'wrap': 'hard'})
+    autocmd FileType text call pencil#init({'wrap': 'soft'})
 augroup END
 
 """"""""""""" End Pencil """""""""""""""""""""""""""""
